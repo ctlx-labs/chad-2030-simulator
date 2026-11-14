@@ -1,0 +1,13 @@
+# Software catalogue record (Backstage format, backstage.io/docs/features/software-catalog/descriptor-format).
+# GitHub topics mirror this file: website, system-simulators, domain-publishing.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chad-2030-simulator
+  description: "Chad 2030 simulator (public web app)."
+  tags: [website]
+spec:
+  type: website
+  lifecycle: production
+  owner: group:publishing
+  system: simulators
